@@ -1,0 +1,46 @@
+{
+  "defaultOptionConfig": {
+    "label": "Option",
+    "familyDefinition": "EMP",
+    "employees": 0,
+    "dependents": 0,
+    "totalLives": 0,
+    "sumInsuredType": "radio",
+    "sumInsuredRadioValue": "200000",
+    "sumInsuredManualValue": "",
+    "comments": ""
+  },
+  "initialOptions": [
+    {
+      "id": 1,
+      "label": "Expiring Terms",
+      "familyDefinition": "EMP",
+      "employees": 100,
+      "dependents": 100,
+      "totalLives": 200,
+      "sumInsuredType": "radio",
+      "sumInsuredRadioValue": "200000",
+      "sumInsuredManualValue": "",
+      "comments": ""
+    },
+    {
+      "id": 2,
+      "label": "Option 1",
+      "familyDefinition": "EMP",
+      "employees": 100,
+      "dependents": 100,
+      "totalLives": 200,
+      "sumInsuredType": "radio",
+      "sumInsuredRadioValue": "300000",
+      "sumInsuredManualValue": "",
+      "comments": ""
+    }
+  ],
+  "sumInsuredOptions": [
+    { "value": "200000", "label": "₹2,00,000" },
+    { "value": "300000", "label": "₹3,00,000" },
+    { "value": "500000", "label": "₹5,00,000" },
+    { "value": "1000000", "label": "₹10,00,000" }
+  ],
+  "familyDefinitionOptions": ["EMP", "ESC", "ESCP/I", "Specify"]
+}
